@@ -1,0 +1,87 @@
+/* reset padding, margin; */
+body { 
+    margin: 0 !important;
+    padding: 0 !important;
+    /* de khong bi co vet thut vao */
+}
+
+.red{
+    border: 1px solid red;
+}
+
+.green{
+    border: 1px solid green;
+}
+
+.banner {
+    padding: 20px;
+    /* de noi dung ben trong khong bi thut ra ngoai */
+    height: 500px;
+    background: url('./banner.jpg') center center no-repeat;
+}
+
+.about-sign-in {
+    text-align: right;
+    height: 80px;
+    width: 100%;
+}
+
+.about, 
+.sign-in{
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+.sign-in{
+    margin-right: 40px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px solid green;
+    color: green;
+}
+
+.logo{
+    background: url('./hapoERP.png') center center no-repeat;
+    margin-top: 50px;
+    height: 70px;
+}   
+
+.text{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.icon{
+    margin-top: 50px;
+
+}
+
+.btn-star{
+    text-align: center;
+}
+
+button{
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid rgb(45, 225, 45);
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-style: italic;
+    color: white;
+    background-color: rgb(66, 200, 66);
+}
+
+.left, .right, .center{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+span{
+    display: block;
+}
